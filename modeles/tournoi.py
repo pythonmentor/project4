@@ -109,7 +109,7 @@ class Tournoi:
     
     def round_fin(self):
         """finish the round and update the scores """
-        self.listes_rounds[-1].fini()
+        self.listes_rounds[-1].round_fini()
         dernier_round = self.round_encours - 1
         for match in self.listes_rounds[dernier_round - 1].listematches:
             self.scores[match.idjoueur_1][0] += match.scorejoueur_1
