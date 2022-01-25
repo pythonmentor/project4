@@ -91,7 +91,7 @@ class Tournoi:
             listematches = []
             matches = obtiens_match(sorted_joueurs, self.adversaires)
             for paire in matches:
-                match = Match ('on going', paire[0][0], paire[1][0])
+                match = Match ('entrain', paire[0][0], paire[1][0])
                 listematches.append(match)
             round_suiv = Round(f'round {self.round_encours} |',
                                self.round_encours, listematches)
