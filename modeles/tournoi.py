@@ -112,7 +112,7 @@ class Tournoi:
         self.listes_rounds[-1].fini()
         dernier_round = self.round_encours - 1
         for match in self.listes_rounds[dernier_round - 1].listematches:
-            self.scores[match.idjoueur_1][0] += match.scorejoueu_1
+            self.scores[match.idjoueur_1][0] += match.scorejoueur_1
             self.scores[match.idjoueur_2][0] += match.scorejoueur_2
 
 
