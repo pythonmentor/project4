@@ -91,7 +91,7 @@ class Tournoi:
             listematches = []
             matches = obtiens_match(sorted_joueurs, self.adversaires)
             for paire in matches:
-                match = Match ('entrain', paire[0][0], paire[1][0])
+                match = Match ('on going', paire[0][0], paire[1][0])
                 listematches.append(match)
             round_suiv = Round(f'round {self.round_encours} |',
                                self.round_encours, listematches)
@@ -109,7 +109,7 @@ class Tournoi:
     
     def round_fin(self):
         """finish the round and update the scores """
-        self.listes_rounds[-1].round_fini()
+        self.listes_rounds[-1]round_fini()
         dernier_round = self.round_encours - 1
         for match in self.listes_rounds[dernier_round - 1].listematches:
             self.scores[match.idjoueur_1][0] += match.scorejoueur_1
