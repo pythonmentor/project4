@@ -1,4 +1,4 @@
-def menu() -> str:
+def menu():
     return input(
         "Bonjour, Bienvenue sur le menu pour manager un tournoi d'echecs.\n"
         "Que puis je faire pour vous ?\n"
