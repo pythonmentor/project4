@@ -1,4 +1,4 @@
-class Player:
+class Joueur:
 
     def __init__(self, id, prenom, nom, sexe, classement):
         self.id = id
