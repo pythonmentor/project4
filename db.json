@@ -1,0 +1,1 @@
+{"joueurs": {"1": {"prenom": "orfg", "nom": "jrjr", "sexe": "kfkf", "classement": 7}}, "tournois": {"1": {"nom": "GJ", "date": "J", "nombretotalround": 4, "round_encours": 1, "joueurs": [1], "statut": "initialisation", "listes_rounds": [], "scores": {"1": [0, 7]}, "adversaires": {"1": []}, "controle_temps": "6", "description": "44"}}}
